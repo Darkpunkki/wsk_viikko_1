@@ -1,0 +1,49 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: rgb(40, 203, 181);
+    text-decoration: none;
+}
+
+caption {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+
+#kaupunni {
+    border: 3px solid #3498db;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+
+}
+
+a:hover {
+    color:coral;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #E0F7FA;
+}
+
+ul.bulletpoints {
+    list-style-type: square;
+}
+
